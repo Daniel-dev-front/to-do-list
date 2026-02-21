@@ -1,0 +1,70 @@
+.admin_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+  h1 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    margin-bottom: 50px;
+    color: #33332d;
+  }
+}
+.admin_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  input {
+    padding: 0 0 0 30px;
+    width: 549px;
+    height: 67px;
+    border-radius: 10px;
+    border: none;
+  }
+  input::placeholder {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    color: #33332d;
+  }
+  input:focus {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    color: #33332d;
+  }
+  button {
+    width: 254px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #ddaa27;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
