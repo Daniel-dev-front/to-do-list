@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import scss from "./Order.module.scss";
 import { useProduct } from "../../context/MainContext";
 const Order = () => {
   const { readOrder, delOrder, order, setOrders } = useProduct();
-  // const [piece, setPiece] = useState(1);
 
   useEffect(() => {
     readOrder();
@@ -47,7 +46,6 @@ const Order = () => {
 
                   <button
                     onClick={() => {
-                      // setPiece(piece + 1);
                       setOrders((prev) =>
                         prev.map((el, i) =>
                           i === idx ? { ...el, piece: el.piece + 1 } : el
