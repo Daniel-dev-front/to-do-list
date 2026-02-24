@@ -6,7 +6,7 @@ const Menu = () => {
 
   useEffect(() => {
     readProduct();
-  }, []);
+  }, [readProduct]);
   function checkFood() {
     const span = document.createElement("span");
     span.textContent = "Товар добавлен в корзину (orders) ;)";

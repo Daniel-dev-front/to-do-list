@@ -6,7 +6,7 @@ const Order = () => {
 
   useEffect(() => {
     readOrder();
-  }, []);
+  }, [readOrder]);
   return (
     <div>
       <div className="container">
